@@ -1,0 +1,21 @@
+//
+//  TP-Prefix.pch
+//  TakePart
+//
+//  Created by 方琼蔚 on 17/3/14.
+//  Copyright © 2017年 方琼蔚. All rights reserved.
+//
+
+#ifndef TP_Prefix_pch
+#define TP_Prefix_pch
+
+#ifdef __OBJC__
+
+#import "UIImage+ImageWithColor.h"
+#import "Constant.h"
+#import "HandlerBusiness.h"
+#import "AFNetworking.h"
+
+#endif
+
+#endif /* TP_Prefix_pch */
