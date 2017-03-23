@@ -22,8 +22,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title=@"跑得快";
-    [self loadData];
-    
+    _AirPlainView.backgroundColor=BGGRAY_COLOR;
+    _tableViewArray=[NSMutableArray arrayWithObjects:@"1",@"2",@"3",nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -31,16 +31,6 @@
 }
 
 #pragma mark - tableview delegate
-//分割线对齐
--(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPat{
-    if ([cell respondsToSelector:@selector(setLayoutMargins:)]) {
-        [cell setLayoutMargins:UIEdgeInsetsZero];
-    }
-    if ([cell respondsToSelector:@selector(setSeparatorInset:)]){
-        [cell setSeparatorInset:UIEdgeInsetsZero];
-    }
-}
-
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 125.*SCREEN_WIDTH/373.;
 }
@@ -63,14 +53,18 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 }
 
-
+//分割线对齐
+-(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPat{
+    if ([cell respondsToSelector:@selector(setLayoutMargins:)]) {
+        [cell setLayoutMargins:UIEdgeInsetsZero];
+    }
+    if ([cell respondsToSelector:@selector(setSeparatorInset:)]){
+        [cell setSeparatorInset:UIEdgeInsetsZero];
+    }
+}
 
 #pragma mark - private methods
 -(void)loadData {
-    
-    _tableViewArray=[NSMutableArray arrayWithObjects:@"1",@"2",@"3",nil];
-    
-    
 }
 
 
