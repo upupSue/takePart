@@ -54,8 +54,6 @@ static NSString *groupcellIdentifier = @"groupTableViewCell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    needReload = YES;
     
     ///初始化地图
     [AMapServices sharedServices].apiKey =@"fd403e58bed137d2adabf354aa262db1";

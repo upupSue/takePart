@@ -1,23 +1,30 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8822BD066B1EA1D06F6BFDC2AEB9CC4368B09B1F+++83D7B61",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8822BD066B1EA1D06F6BFDC2AEB9CC4368B09B1F+++1313F1A",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8822BD066B1EA1D06F6BFDC2AEB9CC4368B09B1F+++1313F1A" : 9223372036854775807,
     "8822BD066B1EA1D06F6BFDC2AEB9CC4368B09B1F+++2F53C68" : 9223372036854775807,
-    "8822BD066B1EA1D06F6BFDC2AEB9CC4368B09B1F+++906162E" : 9223372036854775807,
-    "8822BD066B1EA1D06F6BFDC2AEB9CC4368B09B1F+++83D7B61" : 9223372036854775807
+    "8822BD066B1EA1D06F6BFDC2AEB9CC4368B09B1F+++83D7B61" : 9223372036854775807,
+    "8822BD066B1EA1D06F6BFDC2AEB9CC4368B09B1F+++906162E" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "244B65B8-8926-4DEF-810B-FF22A5D8658D",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8822BD066B1EA1D06F6BFDC2AEB9CC4368B09B1F+++1313F1A" : "takePart_IOS\/",
     "8822BD066B1EA1D06F6BFDC2AEB9CC4368B09B1F+++2F53C68" : "",
-    "8822BD066B1EA1D06F6BFDC2AEB9CC4368B09B1F+++906162E" : "",
-    "8822BD066B1EA1D06F6BFDC2AEB9CC4368B09B1F+++83D7B61" : "takePart\/"
+    "8822BD066B1EA1D06F6BFDC2AEB9CC4368B09B1F+++83D7B61" : "takePart\/",
+    "8822BD066B1EA1D06F6BFDC2AEB9CC4368B09B1F+++906162E" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "TakePart",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TakePart\/TakePart.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/upupSue\/takePart.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8822BD066B1EA1D06F6BFDC2AEB9CC4368B09B1F+++1313F1A"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/upupSue\/takePart.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",

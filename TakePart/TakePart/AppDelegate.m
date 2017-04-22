@@ -37,6 +37,8 @@
     //设置自定义返回按钮图片
     [self setNaviBack];
     return YES;
+    
+
 }
 
 /**
